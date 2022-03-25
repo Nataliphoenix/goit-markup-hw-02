@@ -1,0 +1,176 @@
+:root{
+      --primary-text-color:#757575;
+      --title-text-color:#212121;
+      --accent-text-color:#2196F3;
+      --hero-text-color: #FFFFFF;
+      --adress-text-color:rgba(255, 255, 255, 0.6);
+      --filtr-text-color:#F5F4FA;
+}
+
+body{
+font-family: Roboto, "Open Sans", sans-serif;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+
+color: var(--primary-text-color);
+}
+
+li{
+list-style: none;
+}
+
+a {
+text-decoration: none;
+}
+
+/*Logo*/
+.logo {
+font-family: Raleway;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+
+color:var(--accent-text-color);
+}
+
+.studio{
+color: var(--title-text-color);
+}
+
+/*Navigation*/
+.site-nav{
+font-weight: 500;
+line-height: 1.14;
+letter-spacing: 0.02em;
+
+color:var(--title-text-color);
+}
+
+.site-nav a:hover,
+.site-nav a:focus{
+color: var(--accent-text-color) ;
+}
+
+.link-current{
+color: var(--accent-text-color)   
+}
+
+.site-contact a {
+font-weight: 500;
+line-height: 1.14;
+letter-spacing: 0.02em;
+
+color: var(--primary-text-color); 
+}
+
+.site-contact a:hover,
+.site-contact a:focus{
+color: var(--accent-text-color) ;
+}
+
+/*Hero section*/
+.hero{
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+text-align: center;
+background-color: #2F303A;
+
+color: var(--hero-text-color)
+}
+
+.order{
+font-family: inherit;
+font-weight: 700;
+font-size: 16px;
+line-height: 1.88;
+letter-spacing: 0.06em;
+
+color: var(--hero-text-color);
+background-color: var(--accent-text-color);
+cursor: pointer;
+}
+
+.order:hover{
+opacity: 0.8;
+}
+
+/*Peculiarities*/
+.peculiarities{
+font-weight: 700;
+line-height: 1.14;
+text-transform: uppercase;
+
+color:var(--title-text-color);
+}
+
+/*Our work*/
+.title{
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+
+color: var(--title-text-color)
+}
+
+/*Our command*/
+.partner{
+font-weight: 500;
+font-size: 16px;
+line-height: 1.19;
+
+color: var(--title-text-color)
+}
+
+.profesion{
+font-size: 16px;
+line-height: 1.18;
+}
+/*Footer/*
+/*Address*/
+.contact{
+font-style: inherit;
+color: var(--hero-text-color);
+background-color: #2F303A;
+}
+.contact a{
+color: var(--adress-text-color);
+}
+
+/*Portfolio*/
+.filtr{
+font-family: inherit;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+text-align: center;
+cursor: pointer;
+
+background-color: var(--filtr-text-color);
+color: var(--title-text-color);
+}
+
+.filtr:hover{
+background-color: var(--accent-text-color);
+color: var(--hero-text-color);
+}
+
+.filtr-title{
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+
+color: var(--title-text-color);
+}
+
+.filtr-list{
+font-size: 16px;
+line-height: 1.88;
+}
+
