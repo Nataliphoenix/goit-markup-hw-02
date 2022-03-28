@@ -2,18 +2,22 @@
       --primary-text-color:#757575;
       --title-text-color:#212121;
       --accent-text-color:#2196F3;
+      --accent-second-color: #188CE8;
       --hero-text-color: #FFFFFF;
       --adress-text-color:rgba(255, 255, 255, 0.6);
       --filtr-text-color:#F5F4FA;
+      --hero-background-color: #2F303A;
+      --command-backgraund-color:#F5F4FA;
+      --conteiner-background-color: #E5E5E5;
 }
 
 body{
-font-family: Roboto, "Open Sans", sans-serif;
+font-family: Roboto, sans-serif;
 font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
-
+background-color: var(--hero-text-color);
 color: var(--primary-text-color);
 }
 
@@ -40,21 +44,17 @@ color: var(--title-text-color);
 }
 
 /*Navigation*/
-.site-nav{
+.site-nav a{   
 font-weight: 500;
 line-height: 1.14;
 letter-spacing: 0.02em;
-
-color:var(--title-text-color);
+color: var(--title-text-color)
 }
 
+.site-nav a:focus,
 .site-nav a:hover,
-.site-nav a:focus{
+.site-nav a:active{
 color: var(--accent-text-color) ;
-}
-
-.link-current{
-color: var(--accent-text-color)   
 }
 
 .site-contact a {
@@ -65,20 +65,23 @@ letter-spacing: 0.02em;
 color: var(--primary-text-color); 
 }
 
-.site-contact a:hover,
-.site-contact a:focus{
+.site-contact a:focus,
+.site-contact a:hover{
 color: var(--accent-text-color) ;
 }
 
 /*Hero section*/
+.section-hero{
+background-color: var(--hero-background-color);
+text-align: center;
+}
+
 .hero{
 font-weight: 900;
 font-size: 44px;
 line-height: 1.36;
 letter-spacing: 0.06em;
 text-transform: uppercase;
-text-align: center;
-background-color: #2F303A;
 
 color: var(--hero-text-color)
 }
@@ -96,7 +99,7 @@ cursor: pointer;
 }
 
 .order:hover{
-opacity: 0.8;
+background-color: var(--accent-second-color);
 }
 
 /*Peculiarities*/
@@ -119,10 +122,15 @@ color: var(--title-text-color)
 }
 
 /*Our command*/
+.command{
+background-color: var(--command-backgraund-color);
+}
+
 .partner{
 font-weight: 500;
 font-size: 16px;
-line-height: 1.19;
+line-height: 1.18;
+text-align: center;
 
 color: var(--title-text-color)
 }
@@ -130,21 +138,36 @@ color: var(--title-text-color)
 .profesion{
 font-size: 16px;
 line-height: 1.18;
+text-align: center;
 }
 /*Footer/*
 /*Address*/
 .contact{
 font-style: inherit;
 color: var(--hero-text-color);
-background-color: #2F303A;
+background-color:var(--hero-background-color);
 }
 .contact a{
 color: var(--adress-text-color);
 }
+.contact a:hover{
+opacity: 0.6;
+}
 
 /*Portfolio*/
+.filtr-all{
+font-family: inherit;
+letter-spacing: inherit;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+text-align: center;
+cursor: pointer;
+background-color: var(--accent-text-color);
+}
 .filtr{
 font-family: inherit;
+letter-spacing: inherit;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.62;
