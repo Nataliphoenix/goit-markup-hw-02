@@ -1,199 +1,207 @@
-:root{
-      --primary-text-color:#757575;
-      --title-text-color:#212121;
-      --accent-text-color:#2196F3;
-      --accent-second-color: #188CE8;
-      --hero-text-color: #FFFFFF;
-      --adress-text-color:rgba(255, 255, 255, 0.6);
-      --filtr-text-color:#F5F4FA;
-      --hero-background-color: #2F303A;
-      --command-backgraund-color:#F5F4FA;
-      --conteiner-background-color: #E5E5E5;
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-text-color: #2196f3;
+  --accent-second-color: #188ce8;
+  --hero-text-color: #ffffff;
+  --adress-text-color: rgba(255, 255, 255, 0.6);
+  --filtr-text-color: #f5f4fa;
+  --hero-background-color: #2f303a;
+  --command-backgraund-color: #f5f4fa;
+  --conteiner-background-color: #e5e5e5;
 }
 
-body{
-font-family: Roboto, sans-serif;
-font-weight: 400;
-font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
-background-color: var(--hero-text-color);
-color: var(--primary-text-color);
+body {
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  background-color: var(--hero-text-color);
+  color: var(--primary-text-color);
 }
 
-li{
-list-style: none;
+li {
+  list-style: none;
 }
 
 a {
-text-decoration: none;
+  text-decoration: none;
 }
 
 /*Logo*/
 .logo {
-font-family: Raleway;
-font-weight: 700;
-font-size: 26px;
-line-height: 1.19;
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
 
-color:var(--accent-text-color);
+  color: var(--accent-text-color);
 }
 
-.studio{
-color: var(--title-text-color);
+.studio-first {
+  color: var(--title-text-color);
 }
 
 /*Navigation*/
-.site-nav a{   
-font-weight: 500;
-line-height: 1.14;
-letter-spacing: 0.02em;
-color: var(--title-text-color)
+.site-nav a {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--title-text-color);
 }
 
 .site-nav a:focus,
-.site-nav a:hover,
-.site-nav a:active{
-color: var(--accent-text-color) ;
+.site-nav a:hover {
+  color: var(--accent-text-color);
+}
+
+.current-link:visited {
+  color: var(--accent-text-color);
 }
 
 .site-contact a {
-font-weight: 500;
-line-height: 1.14;
-letter-spacing: 0.02em;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 
-color: var(--primary-text-color); 
+  color: var(--primary-text-color);
 }
 
 .site-contact a:focus,
-.site-contact a:hover{
-color: var(--accent-text-color) ;
+.site-contact a:hover {
+  color: var(--accent-text-color);
 }
 
 /*Hero section*/
-.section-hero{
-background-color: var(--hero-background-color);
-text-align: center;
+.section-hero {
+  background-color: var(--hero-background-color);
+  text-align: center;
 }
 
-.hero{
-font-weight: 900;
-font-size: 44px;
-line-height: 1.36;
-letter-spacing: 0.06em;
-text-transform: uppercase;
+.hero {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 
-color: var(--hero-text-color)
+  color: var(--hero-text-color);
 }
 
-.order{
-font-family: inherit;
-font-weight: 700;
-font-size: 16px;
-line-height: 1.88;
-letter-spacing: 0.06em;
+.order {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
 
-color: var(--hero-text-color);
-background-color: var(--accent-text-color);
-cursor: pointer;
+  color: var(--hero-text-color);
+  background-color: var(--accent-text-color);
+  cursor: pointer;
 }
 
-.order:hover{
-background-color: var(--accent-second-color);
+.order:hover {
+  background-color: var(--accent-second-color);
 }
 
 /*Peculiarities*/
-.peculiarities{
-font-weight: 700;
-line-height: 1.14;
-text-transform: uppercase;
+.peculiarities {
+  font-weight: 700;
+  line-height: 1.17;
+  text-transform: uppercase;
 
-color:var(--title-text-color);
+  color: var(--title-text-color);
 }
 
 /*Our work*/
-.title{
-font-weight: 700;
-font-size: 36px;
-line-height: 1.16;
-text-align: center;
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
 
-color: var(--title-text-color)
+  color: var(--title-text-color);
 }
 
 /*Our command*/
-.command{
-background-color: var(--command-backgraund-color);
+.command {
+  background-color: var(--command-backgraund-color);
 }
 
-.partner{
-font-weight: 500;
-font-size: 16px;
-line-height: 1.18;
-text-align: center;
+.partner {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
 
-color: var(--title-text-color)
+  color: var(--title-text-color);
 }
 
-.profesion{
-font-size: 16px;
-line-height: 1.18;
-text-align: center;
+.profesion {
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
 }
 /*Footer/*
 /*Address*/
-.contact{
-font-style: inherit;
-color: var(--hero-text-color);
-background-color:var(--hero-background-color);
+footer {
+  background-color: var(--hero-background-color);
 }
-.contact a{
-color: var(--adress-text-color);
+.studio-second {
+  color: var(--hero-text-color);
 }
-.contact a:hover{
-opacity: 0.6;
+.contact {
+  font-style: inherit;
+  color: var(--hero-text-color);
+}
+.contact a {
+  color: var(--adress-text-color);
+}
+.contact a:hover {
+  opacity: 0.6;
 }
 
 /*Portfolio*/
-.filtr-all{
-font-family: inherit;
-letter-spacing: inherit;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.62;
-text-align: center;
-cursor: pointer;
-background-color: var(--accent-text-color);
+.filtr-all {
+  font-family: inherit;
+  letter-spacing: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  cursor: pointer;
+  background-color: var(--accent-text-color);
+  color: var(--hero-text-color);
 }
-.filtr{
-font-family: inherit;
-letter-spacing: inherit;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.62;
-text-align: center;
-cursor: pointer;
+.filtr {
+  font-family: inherit;
+  letter-spacing: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  cursor: pointer;
 
-background-color: var(--filtr-text-color);
-color: var(--title-text-color);
-}
-
-.filtr:hover{
-background-color: var(--accent-text-color);
-color: var(--hero-text-color);
+  background-color: var(--filtr-text-color);
+  color: var(--title-text-color);
 }
 
-.filtr-title{
-font-weight: 700;
-font-size: 18px;
-line-height: 2;
-letter-spacing: 0.06em;
-
-color: var(--title-text-color);
+.filtr:hover {
+  background-color: var(--accent-text-color);
+  color: var(--hero-text-color);
 }
 
-.filtr-list{
-font-size: 16px;
-line-height: 1.88;
+.filtr-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+
+  color: var(--title-text-color);
 }
 
+.filtr-list {
+  font-size: 16px;
+  line-height: 1.88;
+}
