@@ -204,4 +204,11 @@ footer {
 .filtr-list {
   font-size: 16px;
   line-height: 1.88;
+
+  color: var(--primary-text-color);
+}
+
+.filtr-list:focus,
+.filtr-list:hover {
+  opacity: 0.6;
 }
